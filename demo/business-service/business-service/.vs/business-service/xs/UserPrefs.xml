@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{61390DF8-85D9-4F3F-83E5-A1657F7C26E8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ApplicationController.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ApplicationController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="business-service" expanded="True">
+            <Node name="business-service" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="ApplicationController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.business-service PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
