@@ -14,7 +14,8 @@ from google.protobuf.timestamp_pb2 import Timestamp
 class DataService(myapps_pb2_grpc.DataServiceServicer):
 
     def __init__(self):
-        client = MongoClient('mongodb+srv://Swt:Swt980803@cluster0-kxxhm.azure.mongodb.net/test?retryWrites=true&w=majority')
+        # change <password> to your password
+        client = MongoClient('mongodb+srv://Swt:<password>@cluster0-kxxhm.azure.mongodb.net/test?retryWrites=true&w=majority')
         self.db = client.database
         self.db.user.delete_many({})
         self.db.application.delete_many({})
