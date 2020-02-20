@@ -9,8 +9,8 @@
 - [x] Expose `Restful API` to frontend with `Nodeport` service
 
 ## Usage
-- Setup business service and data service:
-  - kubectl apply -f data-service.yaml
-  - kubectl apply -f business-service.yaml
-- Setup frontend:
-  - yarn start
+- **Setup business service and data service** (docker: swwwt/data-service, swwwt/business-service)
+  - $ kubectl apply -f data-service.yaml
+  - $ kubectl apply -f business-service.yaml
+- **Setup frontend** (npm: <u>swwwt-test-0220</u>)
+  - $ yarn start
